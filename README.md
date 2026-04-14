@@ -22,6 +22,14 @@ inventory.
 **Linux:** Use [tfenv](https://github.com/tfutils/tfenv) or direct binary
 **Windows:** `winget install Hashicorp.Terraform` or WSL2
 
+### NetActuate Terraform Provider
+
+The NetActuate Terraform provider is installed automatically when you run `terraform init`.
+It is downloaded from the Terraform Registry and shared across all modules on your system.
+Each module in this collection is an independent, self-contained project with its own
+`main.tf`, `variables.tf`, and `outputs.tf` — you can use any module on its own without
+the others.
+
 ## Configuration
 
 ```bash
